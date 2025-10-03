@@ -1,0 +1,26 @@
+.CardPage {
+    max-width: 2000px;
+    margin: -10px auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.CardContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    /*overflow-x: auto;*/
+    gap: 15px;
+    padding: 15px;
+}
+
+.CardContainer img {
+    min-width: 280px;
+    max-width: 320px;
+    flex-shrink: 0;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,9 @@
+.ChipsTittle {
+    color: white;
+    gap: 0.8rem;
+    display: flex;
+    font-size: 1.8rem;
+    align-items: center;
+    font-weight: normal;
+    font-family: 'century gothic';
+}
