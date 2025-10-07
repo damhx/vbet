@@ -1,5 +1,6 @@
 import { Route } from "@angular/router";
 
+
 export const RENDER_ROUTES: Route[] = [
     {
         path:'',
@@ -8,6 +9,10 @@ export const RENDER_ROUTES: Route[] = [
             {
                 path:'',
                 loadComponent: ()=> import('./home-component/home-component').then ( (c)=> c.HomeComponent)
+            },
+            {
+                path:'page1',
+                loadComponent: ()=> import('./page1-component/page1-component').then ( (c)=> c.Page1Component)
             }
         ]
     }
