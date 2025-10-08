@@ -4,7 +4,7 @@ import { CardComponent } from "./component/card-component/card-component";
 
 @Component({
   selector: 'app-home-component',
-  imports: [ChipsComponent, CardComponent],
+  imports: [ChipsComponent, CardComponent,],
   templateUrl: './home-component.html',
   styleUrl: './home-component.css'
 })

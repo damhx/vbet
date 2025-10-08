@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-text-page1-component',
@@ -7,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './text-page1-component.css'
 })
 export class TextPage1Component {
+  constructor(private router: Router) {}
 
+  irAHome() {
+    this.router.navigateByUrl('');
+  }
 }
